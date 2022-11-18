@@ -205,3 +205,4 @@ select tb2.*  from
    		
    				 order by boardNum desc) tb , (SELECT @ROWNUM:=0) R) order by boardNum desc) tb2 
 							where rNum between 0 and 100
+
